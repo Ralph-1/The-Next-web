@@ -90,8 +90,13 @@ main {
 }
 
 .news-item {
-  width: 500px;
+  width: 75%;
   margin-bottom: 15px;
+}
+
+.news-item img {
+  width: 80px;
+  height: 80px;
 }
 
 .sub-text small {
@@ -300,6 +305,21 @@ main {
 
   .stories-2 h2{
     font-size: 17px;
+  }
+
+  .news-item-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .news-item {
+    display: block;
+    width: 95%;
+  }
+
+  .news-item img {
+    width: 100%;
+    height: 100px;
   }
 }
 
