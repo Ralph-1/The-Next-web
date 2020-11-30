@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: rgb(248, 247, 247);
+}
+
+main {
+  width: 98%;
+  margin: 10px auto 1px auto;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.second-nav {
+  background-color: white;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.nav-icons {
+  font-size: 21px;
+  width: 70px;
+  padding: 5px 5px;
+  margin: auto 0;
+}
+
+.top-stories {
+  position: relative;
+}
+
+.stories-item {
+  background-image:  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%), url(images/top-stories.png);
+  height: 150px;
+  color: rgb(252, 249, 249);
+  margin-bottom: 10px;
+}
+
+.top-stories h2 {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+}
