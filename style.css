@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -43,10 +51,6 @@ main {
   margin: auto 0;
 }
 
-.top-stories {
-  position: relative;
-}
-
 .stories-item {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%), url(images/top-stories.png);
   height: 150px;
@@ -55,7 +59,6 @@ main {
 }
 
 .top-stories h2 {
-  position: absolute;
   top: 90px;
   left: 10px;
 }
@@ -83,4 +86,84 @@ main {
 
 .funding-items div {
   margin-bottom: 6px;
+}
+
+.price-header {
+  background-color: rgb(255, 74, 42);
+  color: white;
+  height: 45px;
+}
+
+.price {
+  height: 60px;
+  background-color: rgb(255, 199, 189);
+}
+
+.price-footer {
+  background-color: rgb(253, 220, 214);
+  height: 80px;
+  padding: 12px;
+}
+
+.footer-1 {
+  height: 60px;
+  background-color: rgb(253, 220, 215);
+  border-top: 1px solid tomato;
+  padding: 12px;
+}
+
+.index-price {
+  margin-bottom: 20px;
+}
+
+.index-price img {
+  left: 15px;
+  top: 15px;
+}
+
+.text {
+  padding: 10px 1px 1px 80px;
+}
+
+.hard-fork {
+  margin-bottom: 20px;
+}
+
+.hard-fork h2 {
+  margin: 30px 1px 15px;
+}
+
+.fork-details {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 245, 0) 100%), url(images/hard-fork.png);
+  height: 500px;
+}
+
+.fork-details h2 {
+  color: white;
+  top: 400px;
+  left: 10px;
+}
+
+.fork-latest {
+  background-color: rgb(255, 207, 198);
+  margin-top: 3px;
+}
+
+.fork-latest img {
+  width: 80px;
+  height: 80px;
+}
+
+.hard-fork ul {
+  width: 96%;
+}
+
+.hard-fork li {
+  padding: 7px 0;
+  color: tomato;
+  border-bottom: 1px solid #bbb;
+}
+
+.hard-fork li a {
+  color: #5e5e5e;
 }
