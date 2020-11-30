@@ -8,6 +8,14 @@
   position: relative;
 }
 
+.white {
+  color: white;
+}
+
+.none {
+  display: none;
+}
+
 .absolute {
   position: absolute;
 }
@@ -37,6 +45,10 @@ main {
 
 .tomato {
   color: tomato;
+}
+
+.first-nav {
+  display: none;
 }
 
 .second-nav {
@@ -215,8 +227,87 @@ main {
 
 .footer-bottom {
   padding: 42px 1px 28px 150px;
-
   background-color: #000000;
   height: 97px;
   color: white;
+}
+
+.footer-bottom img {
+  width: 40px;
+}
+
+@media screen and (width: 768px) {
+  header{
+    display: flex;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .nav-img {
+    display: block;
+  }
+
+  .first-nav {
+    display: flex;
+    background-color: #131313;
+    width: 105.5%;
+    height: 30px;
+    padding: 10px 3px;
+  }
+
+  .nav-1 {
+    width: 400px;
+  }
+
+  .nav-2 {
+    width: 220px;
+  }
+
+  .Second-nav {
+    padding: 5px 5px;
+    background-color: white;
+    width: 105.5%;
+  }
+
+  .Second-nav .nav-icons .fa-bars{
+    display: none;
+  }
+
+  .nav-icons .fa-search{
+    padding-left: 40px;
+  }
+
+  .second-links {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+
+  }
+
+  .top-stories-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+  }
+
+  .stories-1 {
+    height: 310px;
+    position: relative;
+    font-size: 20px;
+  }
+
+  .stories-2 h2{
+    font-size: 17px;
+  }
+}
+
+
+
+
+
+
+@media screen and (width: 1024px) {
+
 }
