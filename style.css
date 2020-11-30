@@ -63,7 +63,7 @@ main {
   left: 10px;
 }
 
-.main-body  {
+.main-body {
   width: 96%;
 }
 
@@ -82,7 +82,7 @@ main {
   margin-bottom: 15px;
 }
 
-.sub-text small{
+.sub-text small {
   color: #c5c5c5;
 }
 
@@ -94,6 +94,10 @@ main {
 .sub-text-1 s {
   color: #c5c5c5;
   margin-right: 10px;
+}
+
+.sub-text-1 small {
+  color: #000000;
 }
 
 .funding h2 {
@@ -186,4 +190,33 @@ main {
 
 .hard-fork li a {
   color: #5e5e5e;
+}
+
+.footer-top {
+  background-color: #242424;
+  height: 160px;
+  padding: 42px 0 28px;
+}
+
+.footer-top a {
+  color: #c2c2c2;
+  font-size: 13px;
+}
+
+.footer-icons {
+  width: 350px;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.footer-links {
+  width: 300px;
+}
+
+.footer-bottom {
+  padding: 42px 1px 28px 150px;
+
+  background-color: #000000;
+  height: 97px;
+  color: white;
 }
