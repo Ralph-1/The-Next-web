@@ -16,7 +16,7 @@ This project is a clone of New York Times articles section.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/Ralph-1/The-Next-web/Development/index.html)
 
 
 ## Getting Started

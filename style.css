@@ -179,7 +179,7 @@ header {
 }
 
 .hard-fork ul {
-  margin-left: 20px;
+  float: right;
   width: 96%;
 }
 
