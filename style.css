@@ -74,12 +74,13 @@ header {
 .stories-item {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%), url(images/top-stories.png);
   height: 150px;
+  background-size: cover;
   color: rgb(252, 249, 249);
   margin-bottom: 10px;
 }
 
 .top-stories h2 {
-  top: 90px;
+  top: 70px;
   left: 10px;
 }
 
@@ -105,6 +106,7 @@ header {
 .news-item img {
   width: 80px;
   height: 80px;
+  margin-right: 10px;
 }
 
 .sub-text small {
@@ -192,6 +194,7 @@ header {
   color: white;
   top: 400px;
   left: 10px;
+  font-size: 18px;
 }
 
 .fork-latest {
@@ -261,7 +264,7 @@ header {
   }
 
   main {
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin: 0 auto;
   }
 
@@ -270,6 +273,7 @@ header {
     grid-template-columns: 2fr 1fr;
     column-gap: 10px;
     width: 97%;
+    margin-top: 10px;
   }
 
   .header-img {
@@ -282,6 +286,7 @@ header {
 
   .first-nav {
     display: flex;
+    justify-content: space-between;
     background-color: #131313;
     width: 100%;
     height: 30px;
@@ -313,6 +318,7 @@ header {
   .second-links {
     display: flex;
     width: 500px;
+    margin: auto 0;
     justify-content: space-between;
   }
 
@@ -320,6 +326,10 @@ header {
     height: 310px;
     position: relative;
     font-size: 20px;
+  }
+
+  .stories-1 h2 {
+    top: 210px;
   }
 
   .stories-2 h2 {
@@ -385,12 +395,24 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-  main {
+ .main-body {
     max-width: 1140px;
+  }
+
+  .top-stories-container {
+    margin-top: 10px;
   }
 
   .stories-1 {
     height: 500px;
+  }
+
+  .stories-1 h2 {
+    top: 380px;
+  }
+
+  .stories-2 h2 {
+    top: 180px;
   }
 
   .side-stories .stories-item {
@@ -400,6 +422,45 @@ header {
 
   .nav-img {
     display: none;
+  }
+
+  .funding {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .funding h2 {
+    margin: auto 0;
+  }
+
+  .funding-items {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: auto 0;
+  }
+
+  .index-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .index-price {
+    width: 22%;
+    height: 250px;
+  }
+
+  .text,
+  .footer-1,
+  .price-footer {
+    font-size: 10px;
+    
+  }
+
+  .index-price-1 {
+    display: block;
   }
 
   .stories-item img {
