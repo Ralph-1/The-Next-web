@@ -157,6 +157,7 @@ header {
   background-color: rgb(253, 220, 215);
   border-top: 1px solid tomato;
   padding: 12px;
+  font-size: 11px;
 }
 
 .index-price {
@@ -264,7 +265,6 @@ header {
   }
 
   main {
-    /* max-width: 1140px; */
     margin: 0 auto;
   }
 
@@ -334,6 +334,12 @@ header {
 
   .stories-2 h2 {
     font-size: 17px;
+  }
+
+  .funding-items {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
   }
 
   .news-item-div {
